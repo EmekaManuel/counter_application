@@ -1,0 +1,118 @@
+:root{
+    --primary: #D81E5B;
+    --secondary: #8a4fff;
+    --grey: #aaa;
+    --light: #eee;
+    --dark: #131A26;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: var(--light);
+}
+main{
+    padding: 50px 40px;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    color: var(--dark);
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+p{
+    color: var(--grey);
+    font-size: 20px;
+    font-style: italic;
+    margin: 20px 0;
+}
+.counter{
+    background-color: var(--dark);
+    padding: 10px;
+    border-radius: 15px;
+    color: #eee;
+}
+.counter-value{
+    font-size: 80px;
+    font-weight: 700;
+}
+.counter-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+}
+.counter-controls button{
+    margin: 0 20px;
+}
+button{
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+}
+button span{
+    display: block;
+    transition: 0.4s ease-out;
+}
+button[data-action="reset"] {
+    color: red;
+    opacity: 0.7;
+}
+
+button[data-action="reset"]:hover {
+    opacity: 1;
+}
+.save{
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.save button{
+    margin: 10px 20px;
+    color: var(--dark);
+}
+button:active{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
